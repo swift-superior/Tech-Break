@@ -12,6 +12,8 @@
 		920BF7952C2C5726009B2CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920BF7942C2C5726009B2CBC /* Assets.xcassets */; };
 		920BF7982C2C5726009B2CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920BF7972C2C5726009B2CBC /* Preview Assets.xcassets */; };
 		920BF79F2C2C599B009B2CBC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920BF79E2C2C599B009B2CBC /* SettingsView.swift */; };
+		92B242E82C2DA8840079D309 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242E72C2DA8840079D309 /* HomeView.swift */; };
+		92B242EC2C2DAC020079D309 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B242EB2C2DAC020079D309 /* FocusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		920BF7942C2C5726009B2CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920BF7972C2C5726009B2CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		920BF79E2C2C599B009B2CBC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		92B242E72C2DA8840079D309 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		92B242EB2C2DAC020079D309 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +41,9 @@
 		920BF7842C2C571B009B2CBC = {
 			isa = PBXGroup;
 			children = (
+				92B242EB2C2DAC020079D309 /* FocusView.swift */,
 				920BF79E2C2C599B009B2CBC /* SettingsView.swift */,
+				92B242E72C2DA8840079D309 /* HomeView.swift */,
 				920BF78F2C2C571B009B2CBC /* Tech Break */,
 				920BF78E2C2C571B009B2CBC /* Products */,
 			);
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				920BF79F2C2C599B009B2CBC /* SettingsView.swift in Sources */,
+				92B242E82C2DA8840079D309 /* HomeView.swift in Sources */,
 				920BF7932C2C571B009B2CBC /* ContentView.swift in Sources */,
 				920BF7912C2C571B009B2CBC /* Tech_BreakApp.swift in Sources */,
+				92B242EC2C2DAC020079D309 /* FocusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
